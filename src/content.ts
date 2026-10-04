@@ -26,7 +26,7 @@ export const SITE: Site = {
     weight: 600,
     upper: true,
   },
-  scene: "samosa",
+  scene: "pour",
   align: "left",
   hero: {
     title: [
@@ -90,9 +90,28 @@ export const SITE: Site = {
     alt: "Rao Restaurant storefront",
     address: { en: "Plus code 64FX+639, Sohna Rural, Gurugram", hi: "प्लस कोड 64FX+639, सोहना ग्रामीण, गुरुग्राम" },
   },
+  pour: { from: "pan", into: "glass", liquid: "#a8703f", foam: "#d6ad82", thick: 1, hot: true },
+  story: [
+    { kicker: { en: "The chai", hi: "चाय" }, title: { en: "Samosa, chai, and namkeen to go.", hi: "समोसा, चाय और साथ में नमकीन।" }, quote: "I tried their samosa and tea, and also picked up some namkeen. Everything tasted really good and was fresh. A nice spot for a quick and satisfying snack break!" },
+    { kicker: { en: "The milk", hi: "दूध" }, title: { en: "Sweets from pure cow and buffalo milk.", hi: "गाय-भैंस के शुद्ध दूध की मिठाई।" }, quote: "Best quality food and sweets of pure cow and buffalo milk" },
+    { kicker: { en: "The host", hi: "मेज़बान" }, title: { en: "Every generation, one table.", hi: "हर पीढ़ी, एक टेबल।" }, quote: "Very good place for all type of generations. Mr. Rao also a good person." },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap the dishes guests rave about, set how many and when. It goes to WhatsApp exactly as you see it.", hi: "मेहमानों की पसंदीदा डिश टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    items: [
+      { en: "Samosa", hi: "समोसा" },
+      { en: "Chai", hi: "चाय" },
+      { en: "Namkeen", hi: "नमकीन" },
+      { en: "Milk sweets", hi: "दूध की मिठाई" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Rao Restaurant, I'd like:", hi: "नमस्ते राव रेस्टोरेंट, मुझे चाहिए:" },
+  },
   waHello: {
     en: "Hi Rao Restaurant, I'd like to order sweets. Items: , quantity: , pickup date: ",
     hi: "नमस्ते राव रेस्टोरेंट, मुझे मिठाई का ऑर्डर देना है। आइटम: , मात्रा: , पिकअप की तारीख़: ",
   },
-  order: ["dishes", "gallery", "feature", "reviews", "visit"],
+  order: ["build", "dishes", "gallery", "feature", "reviews", "visit"],
 };
